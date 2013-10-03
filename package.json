@@ -1,0 +1,19 @@
+{
+  "name": "node-safecharge",
+  "version": "0.0.1",
+  "description": "node.js wrapper for Safecharge API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "keywords": [
+    "safecharge",
+    "psp",
+    "payment"
+  ],
+  "author": "Bence Dányi <madbence@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "express": "~3.4.0"
+  }
+}
