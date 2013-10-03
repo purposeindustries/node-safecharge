@@ -1,6 +1,6 @@
 {
   "name": "safecharge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node.js wrapper for Safecharge API",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "license": "BSD",
   "devDependencies": {
     "express": "~3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purposeindustries/node-safecharge"
   }
 }
