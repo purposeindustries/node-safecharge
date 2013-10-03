@@ -1,10 +1,16 @@
-# Safecharge PPP wrapper
+# node-safecharge
 
 This module generates URL-s for the Safecharge PPP, and validates responses.
 
+## Install
+
+```
+$ npm install safecharge
+```
+
 ## Usage
 
-### `getPPPURL(items, options, [secret])`
+### getPPPURL(items, options, [secret])
 
 Exapmple:
 
@@ -40,7 +46,7 @@ total_amount: calculated according to the safecharge docs:
   total *= (1 + total_tax/100)
 ```
 
-### `validate(checksum, data, [secret])`
+### validate(checksum, data, [secret])
 
 Validates Safecharges response against `checksum`.
 
