@@ -1,5 +1,5 @@
 {
-  "name": "node-safecharge",
+  "name": "safecharge",
   "version": "0.0.1",
   "description": "node.js wrapper for Safecharge API",
   "main": "index.js",
