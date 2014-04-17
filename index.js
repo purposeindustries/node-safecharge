@@ -65,7 +65,8 @@ module.exports.getPPPURL = function _getPPPURL(items, options, secret) {
     return hash.digest('hex');
   }());
 
-  return 'https://secure.safecharge.com/ppp/purchase.do?' + qs.stringify(options);
+  return (options.url || 'https://secure.safecharge.com/ppp/purchase.do?')
+         + qs.stringify(options);
 };
 
 module.exports.validate = function _validate(checksum, response, secret) {
