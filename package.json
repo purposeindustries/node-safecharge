@@ -11,8 +11,12 @@
     "psp",
     "payment"
   ],
-  "author": "Bence Dányi <madbence@gmail.com>",
-  "license": "BSD",
+  "author": "Purpose Industries <dev@purposeindustries.co>",
+  "contributors": [{
+    "name": "Bence Dányi",
+    "email": "bd@purposeindustries.co"
+  }],
+  "license": "MIT",
   "devDependencies": {
     "express": "~3.4.0"
   },

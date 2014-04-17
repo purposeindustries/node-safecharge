@@ -53,3 +53,7 @@ Validates Safecharges response against `checksum`.
 `data` is an object, containing `totalAmount`, `currency`, `responseTimeStamp`, `PPP_TransactionID`, `Status`, `productId` fields.
 
 `secret` defaults to `process.env.SAFECHARGE_SECRET`.
+
+## License
+
+MIT
